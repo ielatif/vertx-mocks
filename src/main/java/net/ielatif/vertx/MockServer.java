@@ -25,6 +25,7 @@ This is a simple Java verticle which receives `ping` messages on the event bus a
 public class MockServer extends Verticle {
 
     public void start() {
+        FilesLoader.init();
         vertx.createHttpServer().requestHandler(new MockRequestHandler()).listen(8888);
         container.logger().info("Mock server started, listening on port: 8888");
     }
