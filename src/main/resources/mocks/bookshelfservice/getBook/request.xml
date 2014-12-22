@@ -1,0 +1,7 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:getBook xmlns:ns2="http://services.weblog4j.aranin.com/">
+            <arg0>Foundation and Earth</arg0>
+        </ns2:getBook>
+    </soap:Body>
+</soap:Envelope>

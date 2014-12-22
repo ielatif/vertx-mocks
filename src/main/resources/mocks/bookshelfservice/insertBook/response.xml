@@ -1,0 +1,7 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:insertBookResponse xmlns:ns2="http://services.weblog4j.aranin.com/">
+            <return>Book with name : Foundation and Earth is now available on the shelf</return>
+        </ns2:insertBookResponse>
+    </soap:Body>
+</soap:Envelope>

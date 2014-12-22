@@ -1,0 +1,11 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:insertBook xmlns:ns2="http://services.weblog4j.aranin.com/">
+            <arg0>
+                <author>Arthur C Clarke</author>
+                <bookId>0</bookId>
+                <bookName>Rama Revealed</bookName>
+            </arg0>
+        </ns2:insertBook>
+    </soap:Body>
+</soap:Envelope>

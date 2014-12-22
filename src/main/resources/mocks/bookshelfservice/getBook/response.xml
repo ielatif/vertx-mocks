@@ -1,0 +1,11 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:getBookResponse xmlns:ns2="http://services.weblog4j.aranin.com/">
+            <return>
+                <author>Issac Asimov</author>
+                <bookId>0</bookId>
+                <bookName>Foundation and Earth</bookName>
+            </return>
+        </ns2:getBookResponse>
+    </soap:Body>
+</soap:Envelope>
